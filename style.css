@@ -1,0 +1,165 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  .logo {
+    height: 100px;
+  }
+  
+  img {
+    height: 300px;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  ul {
+    background: #283b63;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: goldenrod;
+  }
+  
+  #heroes {
+    height: 700px;
+    background: url("assets/welcome-image.jpg") no-repeat;
+    background-size: 100%;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 54px;
+    color: lightskyblue;
+    text-shadow: 1px 1px #333;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  #royalFamilyName {
+    text-align: center;
+  }
+  
+  table {
+    box-shadow: 10px 10px 6px #888888;
+    border: 1;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5px;
+  }
+  
+  th {
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+  }
+  
+  th,
+  td {
+    text-align: center;
+  }
+  
+  header {
+    display: inline-block;
+    width: 1505px;
+  }
+  
+  #logoHeader {
+    display: inline-block;
+    width: 100px;
+    padding-top: 21px;
+    vertical-align: top;
+  }
+  
+  nav {
+    display: inline-block;
+    width: 1388px;
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 12px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    margin-left: 64px;
+    height: 39px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #heroes.flex-container div {
+    /* Set Royal Family columns to equal width */
+    flex: 1 1 0;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5px;
+  }
+  
+  label {
+    line-height: 2;
+    margin-right: 1500px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+  }
+  
+  input[type="submit"] {
+    background: #283b63;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 96%;
+  }
+  
